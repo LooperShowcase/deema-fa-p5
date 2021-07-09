@@ -1,7 +1,4 @@
-let img;
-function preload() {
-  img = loadImage("Apple-logo.png");
-}
+
 
 function setup() {
   // The size of our starting canvas: 400px width, 400px height
@@ -17,8 +14,6 @@ function draw() {
   // The same as doing: background(220); or --> background(220,220,220);
   background(0);
   translate(width / 2, height / 2);
-  image(img, -50, -50, 100, 100);
-
   stroke(225);
   strokeWeight(1);
   textSize(32);

@@ -1,0 +1,10 @@
+/* This CSS aligns the P5 canvas to the top left corner of the screen */
+html,
+body {
+  font-family: "Zen Loop", cursive;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
